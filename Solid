@@ -1,0 +1,466 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<link rel="stylesheet" type="text/css" href="skins/all.css"/>
+<link rel="stylesheet" href="css/zoomify.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/icheck.js"></script>
+</head>
+<style>
+	html{
+		overflow-x: hidden;
+	}
+	.layui-layer-title {
+    margin: 10px 30px 0;
+    }
+    .page_cpadd{
+    	padding: 0 20px;
+    }
+    .layout_body .works_netbook{
+    	padding: 10px 0;
+    }
+    .layout_body{
+    	height: auto;
+    	overflow: hidden;
+    	
+	    margin-bottom: 25px;
+    }
+    .layout_body .works_table table tr td{
+    	color: #333;
+    }
+    
+    .layui-layer-title {
+    margin: 10px 30px 0;
+    }
+    .page_cpadd{
+    	padding: 0 20px;
+    }
+    .layout_body .works_netbook{
+    	padding: 10px 0;
+    }
+    .upload_img_box li .upload_imgs {
+    	margin:5px 0;
+	}
+	.myclears:after{
+		content: "";
+		display: block;
+		width:0;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	.code_box .code{
+		background: url(img/code_bg.png) no-repeat center center/100% 100%;
+	}
+	.code_box .code .logoImg{
+		padding-top: 65px;
+	}
+	.code_box .code .codecontent{
+		color: #000;
+		font-size: 30px;
+		margin-top: 20px;
+	}
+
+</style>
+<body class="">
+<article class="page_cpadd">
+  	<!--<form name="cfyscpForm" >-->
+  		<div id="tab-system" class="HuiTab">
+			<div class="tabBar cl">
+				<span>机械基本信息</span>
+				<span>环保号码</span>
+			</div>
+			<div class="tabCon">
+				 <div class="layout_body">
+            		<div class="add_works">
+						<div class="works_table">
+	                        
+			  					
+			  						
+			  						
+			  						
+			  						
+			  					
+			  				
+			  				
+			  				
+			  					
+			  						
+			  							
+			  							
+						  					
+				  						
+			  						
+			  					
+			  					
+			  						
+			  							
+			  							
+						  					
+						  					
+				  						
+			  						
+			  						
+			  							
+			  							
+						  					
+				  						
+			  						
+			  					
+			  				
+			  				
+			  				
+			  				
+			  					
+			  						
+			  							
+			  							
+						  					
+				  						
+			  						
+			  					
+			  					
+			  						
+			  							
+			  							
+						  					
+				  						
+			  						
+			  						
+			  							
+			  							
+						  					
+				  						
+			  						
+			  					
+			  				
+			  				
+			  				
+			  					<p class="upload-title"><span style="color: red;">*</span>检测报告</p>
+			  				
+			  				
+			  				<ul class="upload_img_box">
+			  					
+			  					
+			  					
+			  				</ul>
+			  				
+			  				
+			  				
+			  				
+			  				<p class="upload-title"><span style="color: red;">*</span>机械机身不同角度照片，三张(前端、尾部、左侧或右侧45度照片——前左侧、前右侧或者后左侧、后右侧都可以)</p>
+			  				
+			  				
+			  				<ul class="upload_img_box">
+			  					
+			  					<li class="col-lg-4 col-md-4 col-sm-6">
+			  						<div class="">
+						  					<img class="zoomify" style="width:100%;height: 100%;" src="https://fdl.zliov.cn/upload/1bfea0cb-81d3-44de-8291-613982a4e13c.jpg"/>
+				  						</div>
+			  									  					</li>
+			  									  					
+			  					
+			  					<li class="col-lg-4 col-md-4 col-sm-6">
+			  						<p></p>
+			  						<div class="">
+						  					<img class="zoomify" style="width:100%;height: 100%;" src="https://fdl.zliov.cn/upload/f49071e0-2496-4162-a9b0-c5bc1502e24d.jpg"/>
+				  						</div>
+			  									  					</li>
+			  									  					
+			  					
+			  					<li class="col-lg-4 col-md-4 col-sm-6">
+			  						<p></p>
+			  						<div class="">
+						  					<img class="zoomify" style="width:100%;height: 100%;" src="https://fdl.zliov.cn/upload/b2c829ff-fac8-4a70-985d-ca16012d7286.jpg"/>
+				  						</div>
+			  									  					</li>
+			  									  					
+			  				</ul>
+			  				
+			  				<p class="upload-title">有铭牌必填其一</p>
+			  				
+			  				
+			  				<ul class="upload_img_box" style="border: 2px solid #f00;">
+			  					
+			  					<li class="col-lg-4 col-md-4 col-sm-6">
+			  						<p>环保信息标签照片</p>
+			  						<div class="">
+						  					<img class="zoomify" style="width:100%;height: 100%;" src="https://fdl.zliov.cn/upload/d31d1951-d31d-47e1-afdd-2a0d2c85e59f.jpg"/>
+				  						</div>
+			  									  					</li>
+			  									  					
+			  					
+			  					
+			  					
+			  					<li class="col-lg-4 col-md-4 col-sm-6">
+			  						<p>机械铭牌照片</p>
+			  						<div class="">
+						  					<img class="zoomify" style="width:100%;height: 100%;" src="https://fdl.zliov.cn:10115/upload/e79bec35-e693-4b5b-bab0-ab1515e291bb.jpg"/>
+				  						</div>
+			  									  					</li>
+			  									  					
+			  					
+			  					<li class="col-lg-4 col-md-4 col-sm-6">
+			  						<p>发动机铭牌照片</p>
+			  						<div class="">
+						  					<img class="zoomify" style="width:100%;height: 100%;" src="https://fdl.zliov.cn/upload/f4687b8c-8445-48b6-a5ad-6fd39536ad09.jpg"/>
+				  						</div>
+			  									  					</li>
+			  									  					
+			  				</ul>
+			  				
+			  				<p class="upload-title">无铭牌机械，必填</p>
+			  				
+			  				
+			  				<ul class="upload_img_box" style="border: 2px solid #f00;">
+			  					
+			  					
+			  					
+			  				</ul>
+			  				
+			  				
+			  					
+			  						
+			  						
+			  					
+								
+									
+									
+									
+									
+								
+								
+									
+									
+									
+									
+									
+								
+								
+									
+									
+									
+									
+								
+			  					
+			  						
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			  						
+			  						
+			  					
+			  					
+			  						
+			  						
+			  						
+			  						
+			  					
+			  					
+			  						
+			  						
+			  						
+			  						
+			  					
+			  					
+			  						
+			  						
+			  						
+
+			  						
+			  							
+			  								
+			  								
+			  								
+			  								
+			  								
+			  								
+			  								
+			  							
+			  						
+			  					
+			  					
+			  						
+			  						
+			  						
+			  						
+			  					
+			  					
+			  						
+			  						
+			  						
+			  						
+			  							
+			  								
+			  								
+			  							
+			  						
+			  					
+			  				
+			  			</div>
+					</div>
+  				</div>
+                
+			</div>
+			<div class="tabCon">
+				
+				
+				<div class="code_box">
+					
+					
+					
+					<div class="left col-lg-6 col-md-6 col-sm-6">
+						<div class="code" style="margin-left: 30px;">
+                            <div class="logoImg">
+                                <img id="img" src="img/http127.0.0.18848Solidindex.html.png" width="100" height="100">
+                                 <!--<img id="qrCodeIco" src="../Images/Public/QRCodeLogo.png" style="position: absolute; width: 30px; height: 30px; margin-left: -75px; margin-top: 35px;">-->
+                            </div>
+                            <div class="logoImg codecontent" style="padding-top: 0px;"><span class="F_ENVIRCODE loadLogo" data-value="F_ENVIRCODE">4-3BK36999</span></div>
+                            <div style="" class="loadLogo logoImg"></div>
+                            <div id="divOne" style="display: none;"><canvas width="256" height="256"></canvas><canvas width="256" height="256"></canvas></div>
+                        </div>
+					</div>
+					
+					
+					<div class="right col-lg-6 col-md-6 col-sm-6">
+						<div class="works_netbook" style="margin-top: 30px;">
+				  			<div class="works_table">
+				  				<table border="1" cellspacing="0" cellpadding="0">
+				  					<tbody><tr>
+				  						<td class="icons left" width="40%">环保号码</td>
+				  						<td class="icons right" width="60%">4-3BK36999</td>
+				  					</tr>
+				  					<tr>
+				  						<td class="icons left">发证日期</td>
+				  						<td class="icons right">2021-07-23 16:18:49</td>
+				  					</tr>
+				  					<tr>
+				  						<td class="icons left">发证机构</td>
+				  						<td class="icons right">唐山市生态环境局</td>
+				  					</tr>
+				  					<tr>
+				  						<td class="icons left">状态</td>
+				  						<td class="icons right">使用中</td>
+				  					</tr>
+				  				</tbody></table>
+				  			</div>
+				  		</div>	
+					</div>
+				</div>
+				<div class="" style="margin-top: 25px;">
+					<p style="margin: 15px 0;">历史记录</p>
+					<table id="td" class="table table-border table-bordered table-bg table-hover table-sort">
+						<thead>
+							<tr class="text-c">
+								<th >环保号码</th>
+								<th >发证日期</th>
+								<th >发证机构</th>
+								<th >状态</th>
+								<th width="30%">备注</th>
+							</tr>
+						</thead>
+					  	<tbody id="tbody">
+							<tr class="text-c">
+								<td>4-3BK36999</td>
+								<td>2021-07-23 16:18:49</td>
+								<td>唐山市生态环境局</td>
+								<td>使用中</td>
+								<td></td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+			
+  		</div>
+	<!--</form>-->
+</article>
+</body>
+</html>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/2.4/layer.js"></script>  
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script> 
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+<script type="text/javascript" src="lib/datatables/1.10.0/jquery.dataTables.min.js"></script> 
+<script type="text/javascript" src="lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script> 
+<script src="js/zoomify.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#tab-system").Huitab({
+		index:0
+	});
+});
+$('.zoomify').zoomify();
+</script>
+<!--<script>
+	function selectmap(){
+	//示范一个公告层
+	layer.open({
+	  type: 2
+	  ,title: "坐标采集" //不显示标题栏
+	  ,closeBtn: false
+	  ,area: ['770px', '450px']
+	  ,shade: 0.8
+	  ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
+	  ,resize: false
+	  ,btn: ['确认', '取消']
+	  ,btnAlign: 'c'
+	  ,moveType: 1 //拖拽模式，0或者1
+	  ,content: 'select_area_map.html'
+	  ,success: function(layero){
+	  	
+	  }
+	  ,yes:function(index,layero){
+	  	var body = layer.getChildFrame('body', index); //得到iframe页的body内容
+	  	var CenterSite = body.find("#site").val();
+	  	var CenterLongitude = body.find("#longitude").val();
+	  	var CenterLatitude = body.find("#latitude").val();
+	  	console.log(CenterSite)
+	  	$("#getsite").val(CenterSite);
+	  	$("#getlang").text(CenterLongitude)
+	    $("#getlat").text(CenterLatitude)
+	    //最后关闭弹出层
+		layer.close(index);
+	  }
+	});
+	}
+</script>-->
+
